@@ -1,0 +1,17 @@
+.td {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.tr {
+  border-bottom: 2px solid darkgrey;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: white;
+}
+
+tbody tr:nth-child(even) {
+  background-color: lightgray;
+}
